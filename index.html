@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rhea Li</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Your CSS Code -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Your JS Code -->
+  <script src="main.js"></script>
+</head>
+
+
+<body>
+  <h1 class="name">Rhea Li</h1>
+  <div class="work"><b>Works</b></div>
+
+  <div class="project1">
+    <div class="left">
+      <div class="title">Shopping Cart</div>
+      <div class="skill">(Skills: Javascript, React.js, REST API, NoSQL Database, HTML, CSS)</div>
+    </div>
+
+    <div class="right">
+      <div class="repo"> GitHub Repo:<a href="https://github.com/CMU-SSUI-Fall2022/hw6-Ting7630183">https://github.com/CMU-SSUI-Fall2022/hw6-Ting7630183</a></div>
+      <div class="first-row.pic">
+       <img src="images/cart2.png" width="43%">
+       <img src="images/cart1.png" width="30.1%">
+      </div>
+      <div>
+        <img src="images/cart5.png" width="36.5%">
+        <img src="images/cart3.png" width="36.5%">
+      </div>
+    </div>
+  </div>
+
+  <div class="project2">
+    <div class="left">
+      <div class="title">Offic Hour Queue</div>
+      <div class="skill">(Skills: Django, AJAX, JQuery, Javascript, AWS EC2, AWS S3, HTML, Bootstrap)</div>
+    </div>
+
+    <div class="right">
+      <div class="repo"> GitHub Repo:<a href="https://github.com/Ting7630183/Web-Application/tree/master/OHQ">https://github.com/Ting7630183/Web-Application/tree/master/OHQ</a></div>
+      <div class="first-row.pic">
+      <div>
+        <iframe width="780" height="400" src="https://www.youtube.com/embed/8BmAoBUJt1g" title="OHQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="project3">
+    <div class="left">
+      <div class="title">Santorini</div>
+      <div class="skill">(Backend: Java, Frontend: Nonohttpd)</div>
+      <div class="description">Santorini is an abstract strategy board game for 2-4 players. The game is played on a grid where each turn players build a town by placing building pieces up to three levels high.To win the game, players must move one of their two characters to the third level of the town <a href="https://en.wikipedia.org/wiki/Santorini_(game)">(Wikipedia)</a></div>
+      <div></div>
+    </div>
+
+    <div class="right">
+      <div class="repo"> GitHub Repo:<a href="https://github.com/Ting7630183/Software-Construction/tree/master/HW3%265%20%20Sntorini">https://github.com/Ting7630183/Software-Construction/tree/master/HW3%265%20%20Sntorini</a></div>
+      <div> 
+        <img src="images/santorini-board-game.jpeg" width="36.5%">
+        <img src="images/santorini.jpeg" width="36.5%">
+      </div>
+      <div>
+        <img src="images/uml.png" width="80%">
+      </div>
+    </div>
+  </div>
+
+  <div class="project6">
+    <div class="left">
+      <div class="title">Student Mangement System(CMU Capstone)</div>
+      <div class="skill">(Full Stack developement, UI/UX)</div>
+      <div class="description">Worked with designer, researcher, project manager and product manager, developed a student management system to show students' performances in 21th century competencies which includes critical thinking, communication, leadership and another 9 competencies. </div>
+    </div>
+    <div class="right">
+      <div class="repo">Website:<a href="https://sites.google.com/d/1Bo4fEqS8P117uoywj-IEM8DIDT2J0YRD/p/1HJ2w8sbWuLZ-CAf9-aJxqg5wicPX14uG/edit?pli=1">https://sites.google.com/d/1Bo4fEqS8P117uoywj-IEM8DIDT2J0YRD/p/1HJ2w8sbWuLZ-CAf9-aJxqg5wicPX14uG/edit?pli=1</a></div>
+      <img src="images/ccr.png" width="90%">
+
+
+    </div>
+
+  </div>
+
+  <div class="project4">
+    <div class="left">
+      <div class="title">Distributed System</div>
+      <div class="skill">(Skills: Java RMI, Java Threading, Concurrency Management,file cacheing, 2PC, Write-ahead log, Scaling)</div>
+    </div>
+    <div class="right">
+     <ul>
+      <li>
+        Built a distributed system with multiple clients and a single server which was responsible for generating and publishing
+group collages by assembling images from multiple clients.
+      </li>
+      <li>
+        Achieved concurrent transactions between clients and the server by using Java RMI, Java threading and concurrency
+management techniques.
+      </li>
+
+      <li>
+        Achieved high resilience to lost message failures using the two-phase commit protocol(2PC) and to node failures/reboots
+using the write-ahead log.
+      </li>
+     </ul>
+    </div>
+  </div>
+  <div class="project5">
+    <div class="left">
+      <div class="title">OS Kernal Management System</div>
+      <div class="skill">(Skills: C)</div>
+    </div>
+    <div class="right">
+      <ul>
+        <li>
+          Built an efficient 64-bit struct-based implicit free list memory allocator to simulate malloc, realloc, calloc and free functions,
+which achieved 74% average utilization of memory blocks and 7640 kilo-operation per second average throughput.
+        </li>
+        <li>
+          Constructed a circular doubly linked list to save free blocks which were inserted into the linked list based on FIFO principle
+and can be searched based on first fit principle when allocating new blocks.
+        </li>
+
+        <li>
+          Improved the system throughput by 100% by utilizing segregated lists to optimize the dynamic management of free blocks
+and improved the space utilization by 10% by replacing footers in allocated blocks by a single sign bit.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
