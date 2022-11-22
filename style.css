@@ -27,7 +27,7 @@
     display:flex;
 }
 
-.project2, .project3, .project4, .project5, .project6{
+.project2, .project3, .project4, .project5, .project6, .project7, .project8{
     margin-top:8em;
     margin-left:4em;
     display:flex;
@@ -57,9 +57,10 @@
 }
 
 .repo{
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
     width:70%;
 }
+
 .right2{
     margin-right:8em;
     margin-left:10em;
@@ -72,4 +73,9 @@
 
 .video{
     padding-top:2em;
+}
+
+.notice{
+    padding-left:2em;
+    color:blueviolet;
 }
